@@ -37,8 +37,6 @@ for(let i=0;i<boxes.length;i++)
             message.innerText = `Game was a Draw.`;
             messageContainer.classList.remove("hide");
             reset.classList.add('resetHide');
-            turnO = true;
-            count = 0;
             boxDisable();
         }
 
@@ -66,6 +64,8 @@ function checkWinner()
 
 function boxDisable()
 {
+    turnO = true;
+    count = 0;
     for(let i=0;i<boxes.length;i++){
         let box=boxes[i];
         box.disabled=true; 
