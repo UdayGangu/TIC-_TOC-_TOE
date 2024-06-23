@@ -85,10 +85,11 @@ body{
   @media screen and (max-width: 475px)
   {
     h1{
-        font-size: 35px;
+        font-size: 28px;
+        margin-top: 15px;
     }
     .container{
-        max-width: 70%;
+        max-width: 80%;
         height: 70vh;
         gap: 40px;
     }
@@ -96,10 +97,12 @@ body{
         font-size: 35px;
     }
     p{
+        margin-top:15px ;
         text-align: center;
     }
     .gamebox{
         height: 100%;
         width: 100%;
+        gap: 10px;
     }
   }
