@@ -81,3 +81,25 @@ body{
   .resetHide{
     display: none;
   }
+
+  @media screen and (max-width: 475px)
+  {
+    h1{
+        font-size: 35px;
+    }
+    .container{
+        max-width: 70%;
+        height: 70vh;
+        gap: 40px;
+    }
+    .box{
+        font-size: 35px;
+    }
+    p{
+        text-align: center;
+    }
+    .gamebox{
+        height: 100%;
+        width: 100%;
+    }
+  }
